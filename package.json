@@ -1,0 +1,34 @@
+{
+  "name": "gas-field-local-cag",
+  "version": "2.0.0",
+  "description": "Offline CAG-powered customer services and technical support agent for gas field inspection and maintenance engineers using Foundry Local",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "foundry-local-sdk": "^0.9.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leestott/local-cag.git"
+  },
+  "keywords": [
+    "cag",
+    "offline-ai",
+    "foundry-local",
+    "phi-4",
+    "phi-3.5-mini",
+    "dynamic-model-selection",
+    "gas-field",
+    "support-agent",
+    "context-aware-generation"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
